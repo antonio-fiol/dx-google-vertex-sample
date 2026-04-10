@@ -11,7 +11,7 @@ Built with:
 ![image](./assets/32712f9b-4fb3-4224-9c9c-31061fb85038.png)
 
 
-This project contains the source code and build for a sample AI integration for DX for WCM following the model established in https://opensource.hcltechsw.com/digital-experience/latest/get_started/plan_deployment/container_deployment/wcm_content_ai_analysis/#custom-configurations-for-ai-analysis.
+This project contains the source code and build for a sample AI integration for DX for WCM following the model established in https://help.hcl-software.com/digital-experience/9.5/latest/get_started/plan_deployment/traditional_deployment/wcm_env/wcm_ai_analysis/#custom-configurations-for-ai-analysis.
 
 It leverages Google Vertex AI (see: https://cloud.google.com/vertex-ai ) for sentiment analysis, summary and keyword generation.
 
@@ -40,7 +40,7 @@ Configure a WAS environment variable with defined service account
 ![image](./assets/bbfe319a-043f-4c0f-9009-8b646271eea6.png)
 
 
-Follow the steps for https://opensource.hcltechsw.com/digital-experience/latest/get_started/plan_deployment/container_deployment/wcm_content_ai_analysis.html?h=analysis#configuring-ai-class-for-custom-content-ai-provider passing the classname as com.hcl.GoogleVertexAnalyzerSample.
+Follow the steps for https://help.hcl-software.com/digital-experience/9.5/latest/get_started/plan_deployment/traditional_deployment/wcm_env/wcm_ai_analysis/#configuring-an-ai-class-for-a-custom-content-ai-provider passing the classname as com.hcl.GoogleVertexAnalyzerSample.
 I.e. it would look like this:
 ![image](./assets/d9badd35-13f9-4023-b845-db78c486314c.png)
 
